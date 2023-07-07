@@ -1,2 +1,4 @@
 # AeTest
-Este es un bot en proceso \n Basado en @whiskeysockets/baileys
+Este es un bot en proceso 
+
+Basado en @whiskeysockets/baileys

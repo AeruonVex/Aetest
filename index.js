@@ -57,3 +57,13 @@ process.on('SIGINT', async () => {
   }
 });
           
+async function main() {
+  try {
+    await startBot();
+  } catch (error) {
+    console.error('Ocurrió un error:', error);
+  }
+}
+
+main();
+          

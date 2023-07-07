@@ -19,7 +19,7 @@ exe.connect();
 
 exe.on('message-new', async (message) => {
   if (!message.isGroup && message.body.startsWith('#menu')) {
-    const response = 'Hola! Este es el menú principal del bot en desarrollo, éstos son los comandos disponibles por ahora:\n#menu para ver el menú del bot';
+    const response = 'Hola! Este es el menú principal del bot en desarrollo, éstos son los comandos disponibles por ahora:\n#menu para ver el menú del bot\n#owner\nEso es todo XD';
     exe.sendMessage(message.jid, response, MessageType.text);
   } else if (message.body.startsWith('/owner')) {
     const ownerNumber = '595994422882'; // Número del dueño del bot

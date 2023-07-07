@@ -5,6 +5,7 @@ const OWNER_NUMBER = '595994422882';
 
 venom
   .create()
+  const client = create({ useChrome: true });
   .then((client) => startBot(client))
   .catch((error) => console.log('Error al iniciar el bot:', error));
 

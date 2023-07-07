@@ -2,7 +2,7 @@ const { WAConnection, MessageType } = require('@whiskeysockets/baileys');
 const fs = require('fs');
 
 const PREFIX = '#';
-const OWNER_NUMBER = 'tu-número-de-teléfono';
+const OWNER_NUMBER = '595994422882';
 
 const conn = new WAConnection();
 
